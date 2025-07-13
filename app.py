@@ -16,10 +16,6 @@ dictionary = {
     "쿠크다스 멘탈": "멘탈이 약하다는 의미입니다."
 }
 
-uploaded_file = st.file_uploader("밈 관련 이미지를 업로드해보세요 (선택)", type=["jpg", "png"])
-if uploaded_file:
-    st.image(uploaded_file, caption="업로드한 이미지", use_column_width=True)
-
 sentence = st.text_input("밈 문장을 입력하세요:")
 
 if st.button("번역하기") or sentence:
