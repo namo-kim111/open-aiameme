@@ -101,4 +101,5 @@ if st.button("번역하기") or sentence:
         st.warning("밈을 찾지 못했습니다. 다시 시도해보세요.")
 
 st.markdown("---")
+st.caption("AI수준의 밈 해석은 준비 중입니다!")
 st.caption("제작: Open 에이아밈 탐구팀 | Streamlit 기반 밈 번역기")
