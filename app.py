@@ -3,8 +3,8 @@ import re  # 문장 정제에 필요한 모듈
 
 st.set_page_config(page_title="AI 밈 번역기", page_icon="🧠", layout="centered")
 
-st.title("🧠 AI 밈 번역기")
-st.write("AI가 밈을 번역해드립니다! 당신이 알고있는 밈을 입력해주세요.(정확하게 입력해 주셔야 AI가 알아볼 수 있습니다.)")
+st.title("🧠 AI 기반 X 밈 번역기")
+st.write("인간이 직접 밈을 번역해드립니다! 당신이 알고있는 밈을 입력해주세요.(정확하게 입력해 주셔야 알아볼 수 있습니다.)")
 # 밈 사전
 dictionary = {
     "킹받네": "열받는다에서 조금 더 짜증날 때 쓰는 말입니다.",
